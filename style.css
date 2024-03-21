@@ -4,15 +4,17 @@ body {
 /* title text align wont load */
 #title {
     text-align: center;
+    margin-top: 20px;
 }
 
 .welcome {
     background-color: #fd4f89;
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 600px;
     display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 120px;
     
 }
+
