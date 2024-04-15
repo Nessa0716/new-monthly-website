@@ -1,14 +1,17 @@
 body {
-    background-color: #59D5E0;
+    background-image: url("curls-understood-aesthetic-salon-natural-hair-salons-in-arlington-va-6.jpg");
+    background-color: #dbdbdb;
+    background-blend-mode: overlay;
 }
 /* title text align wont load */
-#title {
-    text-align: center;
-    margin-top: 20px;
+h1 {
+    font-family: "Playfair Display SC", serif;
+    font-size: 100px;
+
 }
 
 .welcome {
-    background-color: #fd4f89;
+    background-color: #ffffff;
     width: 50%;
     height: 600px;
     display: block;
@@ -18,3 +21,15 @@ body {
     
 }
 
+#header {
+    background-color: #dbd7cf;
+    text-align: center;
+width: 100%;
+height:150px;
+}
+.playfair-display sc-bold {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
