@@ -50,6 +50,23 @@ h1 {
   width: 42%;
 }
 
-.navbar {
-  background-color: #dbd7cf !important;
+/* ⬇️ NAVBAR ⬇️ */
+nav{
+  text-shadow: #00b3ff 1px 0 10px;
+  font-family: 'Noto Serif HK', serif;
+  font-size:35px;
+  background-color:#dbd7cf;
+}
+#navhover {
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+#navhover:hover {
+  box-shadow: inset 200px 0 0 0 #a9d8b7;
+}
+#navhover {
+  color: #000000;
 }
