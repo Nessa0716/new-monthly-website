@@ -1,57 +1,55 @@
 body {
-    background-image: url("curls-understood-aesthetic-salon-natural-hair-salons-in-arlington-va-6.jpg");
-    background-color: #dbdbdb;
-    background-blend-mode: overlay;
+  background-image: url("curls-understood-aesthetic-salon-natural-hair-salons-in-arlington-va-6.jpg");
+  background-color: #dbdbdb;
+  background-blend-mode: overlay;
 }
-/* title text align wont load */
-h1 {
-    font-family: "Playfair Display SC", serif;
-    font-size: 100px;
 
+h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 100px;
 }
 
 .welcome {
-    background-color: #ffffff;
-    width: 50%;
-    height: 600px;
-    display: block;
+  background-color: #ffffff;
+  width: 50%;
+  height: 600px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 120px;
-    
 }
 
 #header {
-    background-color: #dbd7cf;
-    text-align: center;
-    width: 100%;
-    height:150px;
+  background-color: #dbd7cf;
+  text-align: center;
+  width: 100%;
+  height: 150px;
 }
-.playfair-display sc-bold {
-    font-family: "Playfair Display SC", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .custom-container {
-    background-image: url("https://storelatina.com/wp-content/uploads/2024/04/How-to-have-beautiful-healthy-hair-in-12-steps.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .custom-container .col-9 {
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    width: 42%;
-    
-  }
 
-  .navbar {
-background-color: aqua;
-  }
+.playfair-display sc-bold {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.custom-container {
+  background-image: url("https://storelatina.com/wp-content/uploads/2024/04/How-to-have-beautiful-healthy-hair-in-12-steps.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.custom-container .col-9 {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  width: 42%;
+}
+
+.navbar {
+  background-color: #dbd7cf !important;
+}
