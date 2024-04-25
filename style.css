@@ -24,8 +24,8 @@ h1 {
 #header {
     background-color: #dbd7cf;
     text-align: center;
-width: 100%;
-height:150px;
+    width: 100%;
+    height:150px;
 }
 .playfair-display sc-bold {
     font-family: "Playfair Display SC", serif;
@@ -33,9 +33,25 @@ height:150px;
     font-style: normal;
   }
   
-#overview {
-background-image: url("");
-text-align: center;
-width: ;
-height:;
-}
+  .custom-container {
+    background-image: url("https://storelatina.com/wp-content/uploads/2024/04/How-to-have-beautiful-healthy-hair-in-12-steps.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .custom-container .col-9 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    width: 42%;
+    
+  }
+
+  .navbar {
+background-color: aqua;
+  }
