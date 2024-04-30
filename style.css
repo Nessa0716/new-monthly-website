@@ -180,12 +180,13 @@ html, body , .container {
 /* For presentation only, no need to copy the code below */
 
 .container * {
-  border: 1px solid red;
+  border: 1px solid rgb(255, 255, 255);
   position: relative;
+  background-color: rgb(184, 184, 184);
 }
 
 .container *:after {
-  content:attr(class);
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -196,3 +197,11 @@ html, body , .container {
   justify-content: center;
 }
 
+.a1,
+.a2,
+.a3 {
+  width: 350px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  /* Add any other styles you want for these boxes */
+  text-align: center;
+}
