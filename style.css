@@ -147,7 +147,8 @@ nav {
 #navhover {
   color: #000000;
 }
-.container {  display: grid;
+.container {  
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -173,7 +174,7 @@ nav {
 
 html, body , .container {
   height: 100%;
-  margin: 0;
+  margin: 3;
 }
 
 /* For presentation only, no need to copy the code below */
