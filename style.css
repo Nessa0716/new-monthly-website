@@ -1,3 +1,77 @@
+
+
+body {
+  background-image: url("curls-understood-aesthetic-salon-natural-hair-salons-in-arlington-va-6.jpg");
+  background-color: #dbdbdb;
+  background-blend-mode: overlay;
+}
+
+h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 100px;
+}
+
+.welcome {
+  background-color: #ffffff;
+  width: 50%;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+
+#header {
+  background-color: #dbd7cf;
+  text-align: center;
+  width: 100%;
+  height: 150px;
+}
+
+.playfair-display.sc-bold {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.custom-container {
+  background-image: url("https://storelatina.com/wp-content/uploads/2024/04/How-to-have-beautiful-healthy-hair-in-12-steps.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay; /* Move the blend mode here */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+}
+.custom-container .col-9 {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  width: 42%;
+}
+
+/* ⬇️ NAVBAR ⬇️ */
+nav{
+  text-shadow: #00b3ff 1px 0 10px;
+  font-family: 'Noto Serif HK', serif;
+  font-size:35px;
+  background-color:#dbd7cf;
+}
+#navhover {
+  box-shadow: inset 0 0 0 0 #ffffff;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+#navhover:hover {
+  box-shadow: inset 200px 0 0 0 #a9d8b7;
+}
+#navhover {
+  color: #000000;
+}
 body {
   background-image: url("curls-understood-aesthetic-salon-natural-hair-salons-in-arlington-va-6.jpg");
   background-color: #dbdbdb;
@@ -51,12 +125,13 @@ h1 {
 }
 
 /* ⬇️ NAVBAR ⬇️ */
-nav{
-  text-shadow: #00b3ff 1px 0 10px;
+nav {
+  text-shadow: #58463b 1px 0 10px;
   font-family: 'Noto Serif HK', serif;
-  font-size:35px;
-  background-color:#dbd7cf;
+  font-size: 35px;
+  background-color: #dbd7cf;
 }
+
 #navhover {
   box-shadow: inset 0 0 0 0 #ffffff;
   color: #ffffff;
@@ -64,9 +139,59 @@ nav{
   margin: 0 -.25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
 #navhover:hover {
-  box-shadow: inset 200px 0 0 0 #a9d8b7;
+  box-shadow: inset 300px 0 0 0 #ffffff;
 }
+
 #navhover {
   color: #000000;
 }
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . . . . . ."
+    ". a1 a1 . . . . . . ."
+    ". a1 a1 . . . . . . ."
+    ". . . . a2 a2 . . . ."
+    ". . . . a2 a2 . . . ."
+    ". . . . . . . a3 a3 ."
+    ". . . . . . . a3 a3 ."
+    ". . . . . . . . . .";
+}
+
+.a1 { grid-area: a1; }
+
+.a2 { grid-area: a2; }
+
+.a3 { grid-area: a3; }
+
+
+html, body , .container {
+  height: 100%;
+  margin: 0;
+}
+
+/* For presentation only, no need to copy the code below */
+
+.container * {
+  border: 1px solid red;
+  position: relative;
+}
+
+.container *:after {
+  content:attr(class);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
